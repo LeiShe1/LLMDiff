@@ -1,0 +1,1 @@
+MASTER_ADDR=localhost MASTER_PORT=10002 python train_cuboid_mnist.py --gpus 2 --cfg cfg.yaml --ckpt_name last.ckpt --save tmp_mnist

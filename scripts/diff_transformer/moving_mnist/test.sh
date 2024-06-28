@@ -1,0 +1,1 @@
+MASTER_ADDR=localhost MASTER_PORT=10001 python train_cuboid_mnist.py --gpus 1 --cfg cfg.yaml --ckpt_name model-epoch=026.ckpt --test --save tmp_mnist_with_diffusion_llama

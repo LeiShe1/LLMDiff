@@ -1,0 +1,2 @@
+MASTER_ADDR=localhost MASTER_PORT=10001 python train_cuboid_sevir_new.py --gpus 1 --test --ckpt_name model-epoch=007.ckpt --save tmp_sevir_with_diffusion_llama
+#MASTER_ADDR=localhost MASTER_PORT=10002 python train_cuboid_sevir_new.py --gpus 2 --test --ckpt_name model-epoch=002.ckpt --save tmp_sevir_first

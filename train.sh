@@ -1,0 +1,1 @@
+MASTER_ADDR=localhost MASTER_PORT=10001 python train_cuboid_sevir.py --gpus 4 --cfg cfg_sevir.yaml --ckpt_name last.ckpt --save tmp_sevir
