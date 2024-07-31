@@ -3,6 +3,7 @@
 This repo is the official implementation of ["LLMDiff: Diffusion Model Using Frozen LLM Transformers For Precipitation Nowcasting"]
 
 ## Installation
+Code should preferably be run on a machine with large memory (A100)
 
 ```bash
 python>=3.9
