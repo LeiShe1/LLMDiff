@@ -29,6 +29,11 @@ python ./scripts/datasets/sevir/download_sevir.py --dataset sevir
 
 ## LLMDiff Training
 
+[LLaMa's pre-training weight](https://pan.baidu.com/s/1GEwgDgjB2H_FJyC9i_PMiQ?pwd=4681) is required here (password is 4681), which can be downloaded using Baidu cloud disk or the following code
+```bash
+python down_load_llama.py
+```
+
 Run the following command to train LLMDiff on MovingMNIST.
 
 ```bash
