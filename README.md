@@ -25,3 +25,19 @@ To download SEVIR dataset from AWS S3, run:
 cd ROOT_DIR/LLMDiff
 python ./scripts/datasets/sevir/download_sevir.py --dataset sevir
 ```
+
+## LLMDiff Training
+
+Run the following command to train LLMDiff on MovingMNIST.
+
+```bash
+cd ./scripts/diff_transformer/moving_mnist
+bash train.sh
+```
+
+Run the following command to train LLMDiff on SEVIR.
+
+```bash
+cd ./scripts/diff_transformer/sevir
+bash train.sh
+```
